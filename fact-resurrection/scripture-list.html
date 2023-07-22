@@ -1,0 +1,749 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<!-- Help+Manual Premium Pack 4.4.0 (c) 2015-2022 by Tim Green. All rights reserved. -->
+	<title>Scripture List</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" id="pageviewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=yes, minimal-ui" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta name="mobile-web-app-capable" content="yes" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="-1" />
+	<meta http-equiv="cache-control" content="no-cache" />	
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+	<meta name="generator" content="Help &amp; Manual" />
+	<meta name="keywords" content="1&nbsp;Peter&nbsp;2:21–24,1&nbsp;Peter&nbsp;2:5–9&nbsp;,Berean Study&nbsp;Bible,Deuteronomy&nbsp;28:15,Deuteronomy&nbsp;28:25–31,Deuteronomy&nbsp;28:58–63.,Ephesians&nbsp;1:17–19,Exodus&nbsp;19:5–6&nbsp;,Exodus&nbsp;24:3–8,Hebrews&nbsp;10:8–14,Hebrews&nbsp;12:23–24,Hebrews&nbsp;4:14–16,Hebrews&nbsp;4:14–16&nbsp;,Hebrews&nbsp;5:1–11,Hebrews&nbsp;5:1–3,Hebrews&nbsp;5:7–10,Hebrews&nbsp;8: 10–12&nbsp;,Hebrews&nbsp;8:6,Hebrews&nbsp;9:12 (NLT),Hebrews&nbsp;9:15,James&nbsp;3:1,John&nbsp;15:4–8,John&nbsp;16:13,King James&nbsp;2000&nbsp;Bible,Mark&nbsp;16:19–20,Matthew&nbsp;27:46,Matthew&nbsp;7:15–20,Philippians&nbsp;2:5–8&nbsp;,Romans&nbsp;15:14–16" />
+	<meta name="description" content="1&nbsp;Peter&nbsp;2:5–9&nbsp;English Standard Version (ESV) 5&nbsp;you yourselves like living stones are being built up as&nbsp;a spiritual house, to be&nbsp;a holy priesthood, &nbsp;to offer spiritual..." />
+	<meta name="ZOOMIMAGE" content="./images/zoomimage.jpg" />
+	<meta name="author" content="Pastor Paul Cooper" />
+	<meta name="msapplication-tap-highlight" content="no" />
+<link rel="shortcut icon" href="favicon.ico" /> 
+<!-- If you use Google Web Fonts please include Open Sans as it is the preferred font for the skin's own UI -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link type="text/css" href="./css/hmprojectstyles.css" rel="stylesheet" />
+	<script type="text/javascript">
+/*! Help & Manual WebHelp 3 Script functions
+Copyright (c) 2015-2022 by Tim Green. All rights reserved. Contact: https://www.ec-software.com
+*/
+		var pageName = "mainPage";
+
+		
+		var hmDevice = {
+		
+		mobileSleepReload: true,
+		// Unique project ID
+		compilehash: (function () {
+		var outVal = 0, t="The Fact of the ResurrectionUser-defined Project ID";
+		for (var x = 0; x < t.length; x++) {
+			outVal = outVal + (t.charCodeAt(x)*(x+2));
+		}
+		return (outVal*697).toString(32) + "_";
+		})(),
+		
+		// Cookies
+		hmSetCookie: function(cname, cvalue, exdays) {
+			var expires = "";
+			if (exdays) {
+				var d = new Date();
+				d.setTime(d.getTime() + (exdays*24*60*60*1000));
+				expires = "expires="+d.toGMTString();
+			}
+			document.cookie = cname + "=" + cvalue + "; " + expires;
+		},
+
+		hmGetCookie: function(cname) {
+			var name = cname + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0; i<ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') c = c.substring(1);
+				if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+			}
+			return "";
+		},
+		
+		hmDeleteCookie: function(cname) {
+			var name = cname + "=";
+			document.cookie = name + "; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+		}
+	
+	};
+	// Session Variables
+	// Test that storage is both available and accessible (looking at you, Safari!)
+	var storageOK = (function(){
+		var gotStorage = typeof(Storage) === "object" && typeof(localStorage) === "object" && typeof(sessionStorage) === "object";
+		if (gotStorage) {
+			try {
+				localStorage.setItem('testStorage',1);
+				localStorage.removeItem('testStorage');
+				gotStorage = true;
+			}
+			catch(e) {
+			gotStorage = false;
+			}
+		}
+		return gotStorage;
+		})();
+		
+	sessionVariable = {
+		localS: storageOK,
+		
+		fxVal: function(v) {
+			return decodeURIComponent(v);
+		},
+		
+		setPV: function(sVar,sVal) {
+			if (this.localS) {
+				localStorage.setItem(hmDevice.compilehash + sVar,this.fxVal(sVal));
+			} else
+				hmDevice.hmSetCookie(hmDevice.compilehash + sVar,this.fxVal(sVal),365);	
+		},
+		setSV: function(sVar,sVal) {
+			if (this.localS)
+				sessionStorage.setItem(hmDevice.compilehash + sVar,this.fxVal(sVal));
+			else
+				hmDevice.hmSetCookie(hmDevice.compilehash + sVar,this.fxVal(sVal),false);
+		},
+		getPV: function(sVar) {
+			if (this.localS) {
+				if (typeof(localStorage.getItem(hmDevice.compilehash + sVar)) !== "undefined")
+					return localStorage.getItem(hmDevice.compilehash + sVar);
+				else return null;
+			} else 
+				return hmDevice.hmGetCookie(hmDevice.compilehash + sVar);
+		},
+		getSV: function(sVar) {
+			if (this.localS) {
+				if (typeof(sessionStorage.getItem(hmDevice.compilehash + sVar)) !== "undefined")
+					return sessionStorage.getItem(hmDevice.compilehash + sVar);
+				else return null;
+			} else 
+				return hmDevice.hmGetCookie(hmDevice.compilehash + sVar);
+		},
+		deletePV: function(sVar) {
+			if (this.localS)
+				localStorage.removeItem(hmDevice.compilehash + sVar);
+			else
+				hmDevice.hmDeleteCookie(hmDevice.compilehash + sVar);
+		},
+		deleteSV: function(sVar) {
+			if (this.localS)
+				sessionStorage.removeItem(hmDevice.compilehash + sVar);
+			else
+				hmDevice.hmDeleteCookie(hmDevice.compilehash + sVar);
+		}
+	},
+	hmFlags = {
+		skinType: "flat"
+	};	
+	
+	/* UI Location */
+	hmDevice.page = "topicpage";
+	hmDevice.baseFontSize = 95;
+	hmDevice.fontChangeMax = 20;
+	
+	/* Source Checks */
+	hmDevice.agent = navigator.userAgent.toLowerCase();
+	hmDevice.embedded = (self != top);
+	hmDevice.Xdomain = (function(){try { return parent.location.hostname.length < 0 } catch(err) { return true;}})();
+	hmDevice.platform = navigator.platform.toLowerCase();
+	hmDevice.ipad = /ipad/.test(hmDevice.platform);
+	hmDevice.iphone = /iphone/.test(hmDevice.platform);
+	hmDevice.winphone7 =  (/windows phone os [7]\.\d\d??; .*?trident\/[5]\.\d\d??; iemobile\/9/.test(hmDevice.agent));
+	hmDevice.winphone = (/windows phone [89]\.\d\d??; .*?trident\/[67]\.\d\d??;.*?touch; /.test(hmDevice.agent));
+	hmDevice.w8desktop = (/windows nt 6\.[2345]|windows nt 10\.[0123456]/m.test(hmDevice.agent));
+	hmDevice.msBrowser = (/edge|trident/m.test(hmDevice.agent));
+	hmDevice.w8metro = (function(){var supported = true; 
+				try {new ActiveXObject("htmlfile");} catch(e) {supported = false;} 
+				return (!supported && hmDevice.w8desktop && hmDevice.msBrowser)})();
+	hmDevice.touch = !!(('ontouchstart' in window && !window.opera) || ('msmaxtouchppoints' in window.navigator) || ('maxtouchppoints' in window.navigator) || (navigator.maxTouchPoints > 0) || (navigator.msMaxTouchPoints > 0));
+	// Treat all Windows 8 devices as desktops unless in metro mode with touch
+	hmDevice.tb = (/tablet/.test(hmDevice.agent) && (!/trident/.test(hmDevice.agent) || (hmDevice.w8metro && hmDevice.touch)));
+	hmDevice.goodandroid = (/android.+?applewebkit\/(?:(?:537\.(?:3[6-9]|[4-9][0-9]))|(?:53[8-9]\.[0-9][0-9])|(?:54[0-9]\.[0-9][0-9]))|android.+?gecko\/[345][0-9]\.\d{1,2} firefox/.test(hmDevice.agent));
+	hmDevice.deadandroid = (/android.+?applewebkit\/(?:53[0-6]\.\d{1,2})|firefox\/[0-2]\d\.\d{1,2}/.test(hmDevice.agent));
+	hmDevice.android = (/android/.test(hmDevice.agent) && !hmDevice.deadandroid);
+	hmDevice.mb = /mobi|mobile/.test(hmDevice.agent);
+	
+	/* Main Checks */
+	hmDevice.phone = (hmDevice.mb && !hmDevice.ipad && !hmDevice.tb);
+	hmDevice.tablet = (hmDevice.ipad || hmDevice.tb || (!hmDevice.phone && hmDevice.android));
+	hmDevice.aspectRatio = (screen.height / screen.width > 1 ? screen.height / screen.width : screen.width / screen.height).toFixed(2);
+	hmDevice.narrowTablet = (hmDevice.tablet && hmDevice.aspectRatio > 1.4);
+	hmDevice.desktop = ((!hmDevice.tablet && !hmDevice.phone));
+	hmDevice.device = hmDevice.phone ? "phone" : hmDevice.tablet ? "tablet" : hmDevice.desktop ? "desktop" : "default";
+	hmDevice.fontSize = hmDevice.phone ? hmDevice.baseFontSize * 1.0 : hmDevice.tablet ? hmDevice.baseFontSize * 1.0 : hmDevice.desktop ? hmDevice.baseFontSize : hmDevice.baseFontSize;
+	hmDevice.maxFontSize = hmDevice.fontSize + hmDevice.fontChangeMax;
+	hmDevice.minFontSize = hmDevice.fontSize - hmDevice.fontChangeMax;
+	if (hmDevice.device !== sessionVariable.getPV("hmDevice")) {
+		sessionVariable.setPV("hmDevice", hmDevice.device);
+		sessionVariable.setPV("fontSize",hmDevice.fontSize.toString());
+		} else {
+			var tempSize = sessionVariable.getPV("fontSize");
+			if (tempSize !== null)
+				hmDevice.fontSize = parseInt(tempSize,10);
+			else
+				sessionVariable.setPV("fontSize",hmDevice.fontSize.toString());
+		}
+		
+	/* Main Stylesheet */
+	hmDevice.cssfile = document.createElement('link');
+	hmDevice.cssfile.rel = 'stylesheet';
+	hmDevice.cssfile.type = 'text/css';
+	hmDevice.cssfile.href = hmDevice.phone ? "./css/hmwebhelp_main_phone.css" : hmDevice.tablet ? "./css/hmwebhelp_main_tablet.css" : hmDevice.desktop ? "./css/hmwebhelp_main_desktop.css" : "./css/hmwebhelp_main_default.css";
+	document.getElementsByTagName('head')[0].appendChild(hmDevice.cssfile);
+
+	// Expand to full width of container frame if help is embedded in another page
+	if (hmDevice.embedded && hmDevice.desktop) {
+		let embedStyle = document.createElement("style");
+			embedStyle.type = "text/css";
+			embedStyle.appendChild(document.createTextNode("div#helpwrapper {max-width: 100% !important}"));
+			document.getElementsByTagName("head")[0].appendChild(embedStyle);
+	}
+
+	hmDevice.pageStylesheet = "./css/hmprojectstyles.css";
+	var hmSearchActive = true,
+		hmIndexActive = true;
+	</script>
+	<style type="text/css">.svgsprite{display:none;}
+	div#noscript {display: none;}</style> 
+	<style id="livestyles" type="text/css"></style>
+	<noscript><style type="text/css">
+	div#pagewrapper {display: none;}
+	div#fouc {display: none;}
+	div#noscript {
+		display: block;
+		position: absolute;
+		top: 0; right: 0; bottom: 0; left: 0;
+		border: 1rem solid grey;
+		background-color: #eaeaea;
+		}
+	h2#noscriptwarning {
+		text-align: center;
+		position: relative;
+		top: 35%;
+		color: #333333;
+	}
+	</style>
+	</noscript>
+	<link rel="canonical" href="https://www.b-wcc.org/scripture-list.html" />
+	<script id="jqscript" type="text/javascript"></script>
+</head>
+<body>
+<!--ZOOMSTOP-->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+<defs>
+<g class="svgsprite" id="th-list" width="32" height="32" viewBox="0 0 32 32">
+<path d="M9.152 22.272v3.456q0 0.704-0.512 1.184t-1.216 0.512h-5.696q-0.736 0-1.216-0.512t-0.512-1.184v-3.456q0-0.704 0.512-1.216t1.216-0.48h5.696q0.704 0 1.216 0.48t0.512 1.216zM9.152 13.152v3.424q0 0.704-0.512 1.216t-1.216 0.48h-5.696q-0.736 0-1.216-0.48t-0.512-1.216v-3.424q0-0.736 0.512-1.216t1.216-0.512h5.696q0.704 0 1.216 0.512t0.512 1.216zM32 22.272v3.456q0 0.704-0.512 1.184t-1.216 0.512h-17.12q-0.736 0-1.216-0.512t-0.512-1.184v-3.456q0-0.704 0.512-1.216t1.216-0.48h17.12q0.736 0 1.216 0.48t0.512 1.216zM9.152 4v3.424q0 0.704-0.512 1.216t-1.216 0.512h-5.696q-0.736 0-1.216-0.512t-0.512-1.216v-3.424q0-0.704 0.512-1.216t1.216-0.512h5.696q0.704 0 1.216 0.512t0.512 1.216zM32 13.152v3.424q0 0.704-0.512 1.216t-1.216 0.48h-17.12q-0.736 0-1.216-0.48t-0.512-1.216v-3.424q0-0.736 0.512-1.216t1.216-0.512h17.12q0.736 0 1.216 0.512t0.512 1.216zM32 4v3.424q0 0.704-0.512 1.216t-1.216 0.512h-17.12q-0.736 0-1.216-0.512t-0.512-1.216v-3.424q0-0.704 0.512-1.216t1.216-0.512h17.12q0.736 0 1.216 0.512t0.512 1.216z"></path>
+	</g>	
+<g class="svgsprite" id="key-inv" width="30" height="32" viewBox="0 0 30 32">
+<path d="M20.256 1.696q3.68 0 6.304 2.624t2.592 6.304-2.592 6.304-6.336 2.624q-0.896 0-1.632-0.16l-0.16 0.16v3.584h-3.584v3.552h-3.552v3.616h-10.72v-7.168l10.88-10.88q-0.16-0.736-0.16-1.664 0-3.68 2.624-6.272t6.336-2.624zM20.256 12.416q0.704 0 1.248-0.512t0.512-1.312-0.512-1.248-1.28-0.512q-0.768 0-1.28 0.544t-0.512 1.216q0 0.768 0.544 1.312t1.28 0.512z"></path>
+	</g>
+<g class="svgsprite" id="search" width="30" height="32" viewBox="0 0 30 32">
+<path d="M20.576 14.848q0-3.296-2.368-5.632t-5.632-2.368-5.664 2.368-2.336 5.632 2.336 5.664 5.664 2.336 5.632-2.336 2.368-5.664zM29.728 29.728q0 0.928-0.704 1.6t-1.6 0.672q-0.96 0-1.6-0.672l-6.112-6.112q-3.2 2.208-7.136 2.208-2.56 0-4.896-0.992t-4-2.688-2.688-4-0.992-4.896 0.992-4.864 2.688-4.032 4-2.688 4.896-0.992 4.864 0.992 4.032 2.688 2.688 4.032 0.992 4.864q0 3.936-2.208 7.136l6.112 6.112q0.672 0.672 0.672 1.632z"></path>
+	</g>
+<g class="svgsprite" id="draghandle_r" width="30" height="32" viewBox="0 0 30 32">
+    <path d="M10,6L8.59,7.41,13.17,12l-4.58,4.59L10,18l6,-6z"></path>
+  </g>
+<g class="svgsprite" id="draghandle_l" width="30" height="32" viewBox="0 0 30 32">
+    <path d="M15.41,7.41L14,6l-6,6,6,6,1.41,-1.41L10.83,12z"></path>
+  </g>
+<g class="svgsprite" id="draghandle_rm" width="30" height="32" viewBox="0 0 30 32">
+    <path d="M12.8 24.896l8.096-8.096q0.352-0.352 0.352-0.8t-0.352-0.8l-8.096-8.096q-0.32-0.352-0.8-0.352t-0.8 0.352l-1.824 1.792q-0.352 0.352-0.352 0.832t0.352 0.8l5.472 5.472-5.472 5.472q-0.352 0.352-0.352 0.8t0.352 0.832l1.824 1.792q0.352 0.352 0.8 0.352t0.8-0.352zM27.424 16q0 3.744-1.824 6.88t-4.992 4.992-6.88 1.856-6.912-1.856-4.96-4.992-1.856-6.88 1.856-6.88 4.96-4.992 6.912-1.856 6.88 1.856 4.992 4.992 1.824 6.88z"></path>
+  </g>
+<g class="svgsprite" id="draghandle_lm" width="30" height="32" viewBox="0 0 30 32">
+    <path d="M16.224 24.896l1.824-1.792q0.352-0.352 0.352-0.832t-0.352-0.8l-5.472-5.472 5.472-5.472q0.352-0.352 0.352-0.8t-0.352-0.832l-1.824-1.792q-0.32-0.352-0.8-0.352t-0.8 0.352l-8.096 8.096q-0.352 0.32-0.352 0.8t0.352 0.8l8.096 8.096q0.352 0.352 0.8 0.352t0.8-0.352zM27.424 16q0 3.744-1.824 6.88t-4.992 4.992-6.88 1.856-6.912-1.856-4.96-4.992-1.856-6.88 1.856-6.88 4.96-4.992 6.912-1.856 6.88 1.856 4.992 4.992 1.824 6.88z"></path>
+  </g>
+<g class="svgsprite" id="toolbar_updown" width="30" height="30" viewBox="0 0 30 30">
+    <path d="M17.038,8.518h-4.977v8.879l-7.084-0.002V8.518H0L8.519,0L17.038,8.518z M22.2,30l8.519-8.518h-4.977v-8.877l-7.084-0.002
+	v8.879h-4.977L22.2,30z"></path>
+  </g>
+<g class="svgsprite" id="toolbar_close" width="30" height="30" viewBox="0 0 30 30">
+    <path d="M16.295 15.705C16.295 15.705 17.705 14.295 17.705 14.295C17.705 14.295 11.705 8.295 11.705 8.295C11.705 8.295 5.705 14.295 5.705 14.295C5.705 14.295 7.115 15.705 7.115 15.705C7.115 15.705 11.705 11.125 11.705 11.125C11.705 11.125 16.295 15.705 16.295 15.705"></path>
+  </g>
+<g class="svgsprite" id="toolbar_open" width="30" height="30" viewBox="0 0 30 30">
+    <path d="M7.115 8.295C7.115 8.295 5.705 9.705 5.705 9.705C5.705 9.705 11.705 15.705 11.705 15.705C11.705 15.705 17.705 9.705 17.705 9.705C17.705 9.705 16.295 8.295 16.295 8.295C16.295 8.295 11.705 12.875 11.705 12.875C11.705 12.875 7.115 8.295 7.115 8.295"></path>
+  </g>
+<g class="svgsprite" id="angle-circled-left" width="27" height="32" viewBox="0 0 27 32">
+<path d="M16.224 24.896l1.824-1.792q0.352-0.352 0.352-0.832t-0.352-0.8l-5.472-5.472 5.472-5.472q0.352-0.352 0.352-0.8t-0.352-0.832l-1.824-1.792q-0.32-0.352-0.8-0.352t-0.8 0.352l-8.096 8.096q-0.352 0.32-0.352 0.8t0.352 0.8l8.096 8.096q0.352 0.352 0.8 0.352t0.8-0.352zM27.424 16q0 3.744-1.824 6.88t-4.992 4.992-6.88 1.856-6.912-1.856-4.96-4.992-1.856-6.88 1.856-6.88 4.96-4.992 6.912-1.856 6.88 1.856 4.992 4.992 1.824 6.88z"></path>
+	</g>
+<g class="svgsprite" id="angle-circled-up" width="27" height="32" viewBox="0 0 27 32">
+<path d="M20.8 20.352l1.824-1.824q0.352-0.352 0.352-0.8t-0.352-0.832l-8.096-8.096q-0.352-0.32-0.8-0.32t-0.832 0.32l-8.096 8.096q-0.32 0.352-0.32 0.832t0.32 0.8l1.824 1.824q0.352 0.32 0.8 0.32t0.8-0.32l5.504-5.504 5.472 5.504q0.352 0.32 0.8 0.32t0.8-0.32zM27.424 16q0 3.744-1.824 6.88t-4.992 4.992-6.88 1.856-6.912-1.856-4.96-4.992-1.856-6.88 1.856-6.88 4.96-4.992 6.912-1.856 6.88 1.856 4.992 4.992 1.824 6.88z"></path>
+	</g>
+<g class="svgsprite" id="angle-circled-right" width="27" height="32" viewBox="0 0 27 32">
+<path d="M12.8 24.896l8.096-8.096q0.352-0.352 0.352-0.8t-0.352-0.8l-8.096-8.096q-0.32-0.352-0.8-0.352t-0.8 0.352l-1.824 1.792q-0.352 0.352-0.352 0.832t0.352 0.8l5.472 5.472-5.472 5.472q-0.352 0.352-0.352 0.8t0.352 0.832l1.824 1.792q0.352 0.352 0.8 0.352t0.8-0.352zM27.424 16q0 3.744-1.824 6.88t-4.992 4.992-6.88 1.856-6.912-1.856-4.96-4.992-1.856-6.88 1.856-6.88 4.96-4.992 6.912-1.856 6.88 1.856 4.992 4.992 1.824 6.88z"></path>
+	</g>
+<g class="svgsprite" id="menu" width="27" height="32" viewBox="0 0 27 32">
+    <path d="M27.424 24v2.272q0 0.48-0.32 0.8t-0.832 0.352h-25.12q-0.48 0-0.8-0.352t-0.352-0.8v-2.272q0-0.48 0.352-0.8t0.8-0.352h25.12q0.48 0 0.832 0.352t0.32 0.8zM27.424 14.848v2.304q0 0.448-0.32 0.8t-0.832 0.32h-25.12q-0.48 0-0.8-0.32t-0.352-0.8v-2.304q0-0.448 0.352-0.8t0.8-0.32h25.12q0.48 0 0.832 0.32t0.32 0.8zM27.424 5.728v2.272q0 0.48-0.32 0.8t-0.832 0.352h-25.12q-0.48 0-0.8-0.352t-0.352-0.8v-2.272q0-0.48 0.352-0.832t0.8-0.32h25.12q0.48 0 0.832 0.32t0.32 0.832z"></path>
+  </g>
+<g class="svgsprite" id="weblink" width="32" height="32" viewBox="0 0 27 32">
+ <path d="M11.99,2C6.47,2,2,6.48,2,12s4.47,10,9.99,10C17.52,22,22,17.52,22,12S17.52,2,11.99,2zm6.93,6h-2.95c-0.32,-1.25,-0.78,-2.45,-1.38,-3.56,1.84,0.63,3.37,1.91,4.33,3.56zM12,4.04c0.83,1.2,1.48,2.53,1.91,3.96h-3.82c0.43,-1.43,1.08,-2.76,1.91,-3.96zM4.26,14C4.1,13.36,4,12.69,4,12s0.1,-1.36,0.26,-2h3.38c-0.08,0.66,-0.14,1.32,-0.14,2,0,0.68,0.06,1.34,0.14,2H4.26zm0.82,2h2.95c0.32,1.25,0.78,2.45,1.38,3.56,-1.84,-0.63,-3.37,-1.9,-4.33,-3.56zm2.95,-8H5.08c0.96,-1.66,2.49,-2.93,4.33,-3.56C8.81,5.55,8.35,6.75,8.03,8zM12,19.96c-0.83,-1.2,-1.48,-2.53,-1.91,-3.96h3.82c-0.43,1.43,-1.08,2.76,-1.91,3.96zM14.34,14H9.66c-0.09,-0.66,-0.16,-1.32,-0.16,-2,0,-0.68,0.07,-1.35,0.16,-2h4.68c0.09,0.65,0.16,1.32,0.16,2,0,0.68,-0.07,1.34,-0.16,2zm0.25,5.56c0.6,-1.11,1.06,-2.31,1.38,-3.56h2.95c-0.96,1.65,-2.49,2.93,-4.33,3.56zM16.36,14c0.08,-0.66,0.14,-1.32,0.14,-2,0,-0.68,-0.06,-1.34,-0.14,-2h3.38c0.16,0.64,0.26,1.31,0.26,2s-0.1,1.36,-0.26,2h-3.38z"></path>
+ </g>
+<g class="svgsprite" id="collapse" width="27" height="32" viewBox="0 0 27 32">
+<path d="M20.448 19.936q-0.32 0.64-1.024 0.64h-11.424q-0.704 0-1.024-0.64-0.32-0.608 0.096-1.184l5.728-8q0.32-0.48 0.928-0.48t0.928 0.48l5.696 8q0.416 0.576 0.096 1.184zM22.848 24.576v-17.152q0-0.224-0.16-0.384t-0.416-0.192h-17.12q-0.224 0-0.416 0.192t-0.16 0.384v17.152q0 0.224 0.16 0.384t0.416 0.192h17.12q0.256 0 0.416-0.192t0.16-0.384zM27.424 7.424v17.152q0 2.112-1.504 3.616t-3.648 1.536h-17.12q-2.144 0-3.648-1.536t-1.504-3.616v-17.152q0-2.112 1.504-3.616t3.648-1.536h17.12q2.144 0 3.648 1.536t1.504 3.616z"></path>
+	</g>
+<g class="svgsprite" id="expand" width="27" height="32" viewBox="0 0 27 32">
+<path d="M20.448 12.064q0.32 0.608-0.096 1.152l-5.696 8q-0.352 0.512-0.928 0.512t-0.928-0.512l-5.728-8q-0.416-0.544-0.096-1.152 0.32-0.64 1.024-0.64h11.424q0.704 0 1.024 0.64zM22.848 24.576v-17.152q0-0.224-0.16-0.384t-0.416-0.192h-17.12q-0.224 0-0.416 0.192t-0.16 0.384v17.152q0 0.224 0.16 0.384t0.416 0.192h17.12q0.256 0 0.416-0.192t0.16-0.384zM27.424 7.424v17.152q0 2.112-1.504 3.616t-3.648 1.536h-17.12q-2.144 0-3.648-1.536t-1.504-3.616v-17.152q0-2.112 1.504-3.616t3.648-1.536h17.12q2.144 0 3.648 1.536t1.504 3.616z"></path>
+	</g>
+<g class="svgsprite" id="eye" width="32" height="32" viewBox="0 0 32 32">
+<path d="M29.728 17.152q-2.72-4.224-6.816-6.304 1.088 1.856 1.088 4 0 3.328-2.336 5.664t-5.664 2.336-5.664-2.336-2.336-5.664q0-2.144 1.088-4-4.096 2.080-6.816 6.304 2.4 3.648 5.984 5.824t7.744 2.176 7.744-2.176 5.984-5.824zM16.864 10.272q0-0.352-0.256-0.608t-0.608-0.224q-2.24 0-3.84 1.6t-1.6 3.808q0 0.352 0.256 0.608t0.608 0.256 0.608-0.256 0.256-0.608q0-1.536 1.088-2.624t2.624-1.088q0.352 0 0.608-0.256t0.256-0.608zM32 17.152q0 0.608-0.352 1.216-2.496 4.128-6.72 6.592t-8.928 2.464-8.928-2.464-6.72-6.592q-0.352-0.608-0.352-1.216t0.352-1.248q2.496-4.096 6.72-6.56t8.928-2.496 8.928 2.496 6.72 6.56q0.352 0.64 0.352 1.248z"></path>
+	</g>
+<g class="svgsprite" id="eye-off" width="32" height="32" viewBox="0 0 32 32">
+<path d="M9.92 23.84l1.376-2.528q-1.536-1.12-2.432-2.816t-0.864-3.648q0-2.144 1.088-4-4.096 2.080-6.816 6.304 3.008 4.608 7.648 6.688zM16.864 10.272q0-0.352-0.256-0.608t-0.608-0.224q-2.24 0-3.84 1.6t-1.6 3.808q0 0.352 0.256 0.608t0.608 0.256 0.608-0.256 0.256-0.608q0-1.536 1.088-2.624t2.624-1.088q0.352 0 0.608-0.256t0.256-0.608zM23.328 6.88q0 0.128 0 0.16-1.888 3.36-5.632 10.112t-5.632 10.112l-0.896 1.6q-0.16 0.288-0.48 0.288-0.224 0-2.4-1.248-0.288-0.192-0.288-0.512 0-0.224 0.8-1.568-2.56-1.152-4.704-3.072t-3.744-4.384q-0.352-0.544-0.352-1.216t0.352-1.248q2.752-4.192 6.784-6.624t8.864-2.432q1.6 0 3.2 0.32l0.992-1.728q0.16-0.288 0.48-0.288 0.096 0 0.32 0.096t0.576 0.288 0.576 0.32 0.576 0.32 0.32 0.224q0.288 0.16 0.288 0.48zM24 14.848q0 2.496-1.408 4.544t-3.744 2.944l5.024-8.992q0.128 0.832 0.128 1.504zM32 17.152q0 0.608-0.352 1.216-0.704 1.152-1.952 2.592-2.688 3.072-6.208 4.768t-7.488 1.696l1.312-2.368q3.808-0.32 7.008-2.432t5.408-5.472q-2.080-3.2-5.056-5.248l1.12-2.016q1.696 1.152 3.264 2.752t2.592 3.264q0.352 0.608 0.352 1.248z"></path>
+	</g>
+<g class="svgsprite" id="link" width="30" height="32" viewBox="0 0 30 32">
+<path d="M25.984 21.728q0-0.736-0.48-1.216l-3.712-3.712q-0.512-0.512-1.216-0.512-0.768 0-1.28 0.576 0.032 0.032 0.32 0.32t0.384 0.384 0.288 0.352 0.224 0.448 0.064 0.48q0 0.736-0.512 1.216t-1.216 0.512q-0.256 0-0.48-0.064t-0.448-0.224-0.352-0.288-0.384-0.384-0.32-0.32q-0.608 0.544-0.608 1.28t0.512 1.216l3.68 3.712q0.48 0.48 1.216 0.48 0.704 0 1.216-0.48l2.624-2.592q0.48-0.512 0.48-1.184zM13.44 9.12q0-0.704-0.48-1.216l-3.68-3.68q-0.512-0.512-1.216-0.512t-1.216 0.48l-2.624 2.624q-0.512 0.48-0.512 1.184t0.512 1.216l3.712 3.712q0.48 0.48 1.216 0.48t1.28-0.544q-0.064-0.064-0.352-0.352t-0.384-0.384-0.256-0.32-0.224-0.448-0.064-0.512q0-0.704 0.48-1.216t1.216-0.48q0.288 0 0.512 0.064t0.448 0.224 0.32 0.256 0.384 0.384 0.352 0.352q0.576-0.544 0.576-1.312zM29.44 21.728q0 2.144-1.536 3.616l-2.624 2.592q-1.472 1.504-3.616 1.504-2.176 0-3.648-1.536l-3.68-3.68q-1.472-1.504-1.472-3.648 0-2.176 1.568-3.712l-1.568-1.568q-1.536 1.568-3.712 1.568-2.144 0-3.648-1.504l-3.712-3.712q-1.504-1.504-1.504-3.648t1.504-3.616l2.624-2.624q1.504-1.472 3.648-1.472t3.648 1.504l3.648 3.712q1.504 1.472 1.504 3.616 0 2.208-1.568 3.744l1.568 1.568q1.536-1.568 3.712-1.568 2.144 0 3.648 1.504l3.712 3.712q1.504 1.504 1.504 3.648z"></path>
+	</g>
+<g class="svgsprite" id="mail-alt" width="32" height="32" viewBox="0 0 32 32">
+<path d="M32 12.672v14.176q0 1.184-0.832 2.016t-2.016 0.864h-26.304q-1.152 0-2.016-0.864t-0.832-2.016v-14.176q0.8 0.896 1.792 1.568 6.464 4.384 8.896 6.144 1.024 0.768 1.632 1.184t1.696 0.864 1.952 0.416h0.064q0.896 0 1.952-0.416t1.696-0.864 1.632-1.184q3.040-2.176 8.896-6.144 1.024-0.704 1.792-1.568zM32 7.424q0 1.408-0.864 2.688t-2.176 2.208q-6.72 4.672-8.384 5.792-0.16 0.128-0.736 0.544t-0.96 0.704-0.928 0.576-1.056 0.48-0.864 0.16h-0.064q-0.384 0-0.864-0.16t-1.056-0.48-0.928-0.576-0.96-0.704-0.736-0.544q-1.632-1.12-4.704-3.232t-3.648-2.56q-1.12-0.736-2.080-2.048t-0.992-2.464q0-1.376 0.736-2.304t2.112-0.928h26.304q1.152 0 1.984 0.832t0.864 2.016z"></path>
+	</g>
+<g class="svgsprite" id="print" width="30" height="32" viewBox="0 0 30 32">
+<path d="M6.848 27.424h16v-4.576h-16v4.576zM6.848 16h16v-6.848h-2.848q-0.704 0-1.216-0.512t-0.512-1.216v-2.848h-11.424v11.424zM27.424 17.152q0-0.48-0.32-0.8t-0.832-0.352-0.8 0.352-0.32 0.8 0.32 0.8 0.8 0.32 0.832-0.32 0.32-0.8zM29.728 17.152v7.424q0 0.224-0.192 0.384t-0.384 0.192h-4v2.848q0 0.704-0.512 1.216t-1.216 0.512h-17.152q-0.704 0-1.184-0.512t-0.512-1.216v-2.848h-4q-0.224 0-0.416-0.192t-0.16-0.384v-7.424q0-1.408 1.024-2.432t2.4-0.992h1.152v-9.728q0-0.704 0.512-1.216t1.184-0.512h12q0.736 0 1.6 0.384t1.344 0.832l2.72 2.72q0.48 0.512 0.864 1.376t0.352 1.568v4.576h1.12q1.44 0 2.432 0.992t1.024 2.432z"></path>
+	</g>
+<g class="svgsprite" id="resize-full" width="27" height="32" viewBox="0 0 27 32">
+<path d="M13.472 18.848q0 0.256-0.16 0.416l-5.92 5.92 2.56 2.592q0.32 0.32 0.32 0.8t-0.32 0.8-0.8 0.352h-8q-0.48 0-0.8-0.352t-0.352-0.8v-8q0-0.48 0.352-0.8t0.8-0.352 0.8 0.352l2.56 2.56 5.92-5.92q0.192-0.192 0.416-0.192t0.416 0.192l2.048 2.016q0.16 0.192 0.16 0.416zM27.424 3.424v8q0 0.48-0.32 0.8t-0.832 0.352-0.8-0.352l-2.56-2.56-5.92 5.92q-0.192 0.192-0.416 0.192t-0.416-0.192l-2.048-2.016q-0.16-0.192-0.16-0.416t0.16-0.416l5.952-5.92-2.592-2.592q-0.32-0.32-0.32-0.8t0.32-0.8 0.8-0.352h8q0.48 0 0.832 0.352t0.32 0.8z"></path>
+	</g>
+<g class="svgsprite" id="resize-small" width="27" height="32" viewBox="0 0 27 32">
+<path d="M13.728 17.152v8q0 0.448-0.352 0.8t-0.8 0.32-0.8-0.32l-2.592-2.592-5.92 5.952q-0.16 0.16-0.416 0.16t-0.416-0.16l-2.016-2.048q-0.192-0.16-0.192-0.416t0.192-0.416l5.92-5.92-2.56-2.56q-0.352-0.352-0.352-0.8t0.352-0.8 0.8-0.352h8q0.448 0 0.8 0.352t0.352 0.8zM27.2 5.152q0 0.224-0.192 0.416l-5.92 5.92 2.56 2.56q0.352 0.352 0.352 0.8t-0.352 0.8-0.8 0.352h-8q-0.448 0-0.8-0.352t-0.32-0.8v-8q0-0.448 0.32-0.8t0.8-0.32 0.8 0.32l2.592 2.592 5.92-5.952q0.192-0.16 0.416-0.16t0.416 0.16l2.016 2.048q0.192 0.16 0.192 0.416z"></path>
+	</g>
+<g class="svgsprite" id="share" width="27" height="32" viewBox="0 0 27 32">
+<path d="M21.728 18.272q2.368 0 4.032 1.696t1.664 4.032-1.664 4.032-4.032 1.696-4.064-1.696-1.664-4.032q0-0.224 0.032-0.608l-6.432-3.2q-1.632 1.536-3.872 1.536-2.4 0-4.064-1.696t-1.664-4.032 1.664-4.032 4.064-1.696q2.24 0 3.872 1.536l6.432-3.2q-0.032-0.384-0.032-0.608 0-2.368 1.664-4.032t4.064-1.696 4.032 1.696 1.664 4.032-1.664 4.032-4.032 1.696q-2.272 0-3.904-1.536l-6.432 3.2q0.032 0.384 0.032 0.608t-0.032 0.608l6.432 3.2q1.632-1.536 3.904-1.536z"></path>
+	</g>
+<g class="svgsprite" id="text-height" width="32" height="32" viewBox="0 0 32 32">
+<path d="M31.136 25.152q0.608 0 0.768 0.32t-0.192 0.8l-2.272 2.88q-0.352 0.48-0.864 0.48t-0.864-0.48l-2.272-2.88q-0.352-0.48-0.192-0.8t0.736-0.32h1.44v-18.304h-1.44q-0.576 0-0.736-0.32t0.192-0.8l2.272-2.88q0.352-0.48 0.864-0.48t0.864 0.48l2.272 2.88q0.352 0.48 0.192 0.8t-0.768 0.32h-1.408v18.304h1.408zM1.44 2.304l0.96 0.48q0.224 0.096 3.776 0.096 0.8 0 2.368-0.032t2.336-0.032q0.672 0 1.92 0t1.92 0h5.248q0.096 0 0.384 0t0.352 0 0.288-0.032 0.32-0.16 0.256-0.32l0.768-0.032q0.064 0 0.224 0.032t0.256 0q0.032 1.984 0.032 5.984 0 1.44-0.064 1.952-0.704 0.256-1.216 0.32-0.448-0.768-0.992-2.272-0.032-0.16-0.192-0.864t-0.256-1.312-0.128-0.64q-0.096-0.128-0.224-0.224t-0.256-0.096-0.256-0.032-0.32-0.032-0.288 0.032q-0.288 0-1.184-0.032t-1.344 0-1.12 0.032-1.28 0.128q-0.16 1.44-0.128 2.4 0 1.696 0.032 6.944t0.032 8.128q0 0.288-0.032 1.28t0 1.632 0.224 1.216q0.704 0.384 2.208 0.768t2.144 0.672q0.064 0.704 0.064 0.896 0 0.256-0.032 0.512l-0.608 0.032q-1.376 0.032-3.904-0.16t-3.68-0.16q-0.896 0-2.72 0.16t-2.688 0.16q-0.064-0.928-0.064-0.928v-0.16q0.288-0.48 1.088-0.768t1.76-0.544 1.408-0.48q0.32-0.736 0.32-6.816 0-1.824-0.032-5.44t-0.064-5.408v-2.080q0-0.032 0-0.288t0.032-0.448-0.032-0.448-0.064-0.416-0.096-0.256q-0.192-0.224-2.88-0.224-0.576 0-1.664 0.224t-1.408 0.48q-0.352 0.224-0.608 1.28t-0.576 1.984-0.768 0.96q-0.736-0.48-0.992-0.8v-6.816z"></path>
+	</g>
+<g class="svgsprite" id="list-bullet" width="32" height="32" viewBox="0 0 32 32">
+<path d="M6.848 25.152q0 1.408-0.992 2.432t-2.432 0.992-2.432-0.992-0.992-2.432 0.992-2.432 2.432-0.992 2.432 0.992 0.992 2.432zM6.848 16q0 1.44-0.992 2.432t-2.432 0.992-2.432-0.992-0.992-2.432 0.992-2.432 2.432-0.992 2.432 0.992 0.992 2.432zM32 23.424v3.424q0 0.224-0.16 0.416t-0.416 0.16h-21.696q-0.256 0-0.416-0.16t-0.16-0.416v-3.424q0-0.224 0.16-0.384t0.416-0.192h21.696q0.224 0 0.416 0.192t0.16 0.384zM6.848 6.848q0 1.44-0.992 2.432t-2.432 0.992-2.432-0.992-0.992-2.432 0.992-2.432 2.432-0.992 2.432 0.992 0.992 2.432zM32 14.272v3.456q0 0.224-0.16 0.384t-0.416 0.16h-21.696q-0.256 0-0.416-0.16t-0.16-0.384v-3.456q0-0.224 0.16-0.384t0.416-0.16h21.696q0.224 0 0.416 0.16t0.16 0.384zM32 5.152v3.424q0 0.224-0.16 0.384t-0.416 0.192h-21.696q-0.256 0-0.416-0.192t-0.16-0.384v-3.424q0-0.256 0.16-0.416t0.416-0.16h21.696q0.224 0 0.416 0.16t0.16 0.416z"></path>
+	</g>
+<g class="svgsprite" id="ok" width="32" height="32" viewBox="0 0 32 32">
+<path d="M29.824 10.112q0 0.704-0.48 1.216l-15.36 15.36q-0.512 0.48-1.216 0.48t-1.216-0.48l-8.896-8.896q-0.48-0.512-0.48-1.216t0.48-1.216l2.432-2.432q0.512-0.512 1.216-0.512t1.216 0.512l5.248 5.28 11.712-11.744q0.512-0.512 1.216-0.512t1.216 0.512l2.432 2.432q0.48 0.512 0.48 1.216z"></path>
+	</g>
+<g class="svgsprite" id="ok-squared" width="27" height="32" viewBox="0 0 27 32">
+<path d="M12.224 23.2l10.976-10.976q0.32-0.32 0.32-0.8t-0.32-0.8l-1.824-1.824q-0.352-0.32-0.8-0.32t-0.8 0.32l-8.352 8.352-3.776-3.776q-0.32-0.352-0.8-0.352t-0.8 0.352l-1.824 1.824q-0.32 0.32-0.32 0.8t0.32 0.8l6.4 6.4q0.352 0.32 0.8 0.32t0.8-0.32zM27.424 7.424v17.152q0 2.112-1.504 3.616t-3.648 1.536h-17.12q-2.144 0-3.648-1.536t-1.504-3.616v-17.152q0-2.112 1.504-3.616t3.648-1.536h17.12q2.144 0 3.648 1.536t1.504 3.616z"></path>
+	</g>
+<symbol class="svgsprite" id="menu-closed" viewBox="0 0 24 24">
+<path d="M2.99999995 23.9999998C2.99999995 23.9999998 21.0123147 12.01849265 21.0123147 12.01849265C21.0123147 12.01849265 3.02464845 1.28000000075e-05 3.02464845 1.28000000075e-05C3.02464845 1.28000000075e-05 2.99999995 23.9999998 2.99999995 23.9999998"></path>
+  </symbol>
+<symbol class="svgsprite" id="menu-open" viewBox="0 0 24 24">
+    <path d="M0.0 3.0C0.0 3.0 12.0 21.0 12.0 21.0C12.0 21.0 24.0 3.0 24.0 3.0C24.0 3.0 0.0 3.0 0.0 3.0"></path>
+  </symbol>
+</defs>
+</svg>
+<div id="fouc" style="background:#ffffff;position:absolute;top:0;right:0;bottom:0;left:0;z-index:100001;"></div><div id="noscript"><h2 id="noscriptwarning">Please enable JavaScript to view this site.</h2></div>
+	<div id="helpwrapper">
+	<div id="pagewrapper">
+	<div id="toolbar_updown" class="toolwrapper phone">
+	<svg id="toolbar_updown_button" alt="Show/Hide Toolbars" viewBox="0 0 30 30"><use xlink:href="#toolbar_updown"></use></svg>
+	</div>
+	<div id="headerbox_wrapper">
+	<div id="headerbox">
+
+<div id="headerwrapper"><h1 class="page_header" id="hm_pageheader">The Fact of the Resurrection</h1></div>
+
+
+
+	</div>
+	</div>
+	<!-- TOPIC CONTENT -->
+	<div id="topicbox">
+	<div id="navigationmenu">
+	<ul id="hamburgermenu">
+	<li id="toggle_fullscreen" class="desktop">
+	<svg id="fullscreen_toggle" class="hmbicon" viewBox="0 0 27 32"><use xlink:href="#resize-full"></use></svg>
+	<a onclick='hmWebHelp.doFullEmbedWindow(this)' title="Zoom window">
+	<span>Zoom Window Out</span></a>
+	</li>
+	<li>
+		<svg class="hmbicon" viewBox="0 0 32 32"><use xlink:href="#text-height"></use></svg>
+		<a onclick="hmWebHelp.extFuncs('fontSize',[true,'global']);" title="Increase Font Size"> 
+		<span>Larger Text</span></a>&nbsp;|&nbsp;<a onclick="hmWebHelp.extFuncs('fontSize',[false,'global']);" title="Decrease Font Size"><span>Smaller Text</span></a>
+	</li>
+	<li class="desktop" id="showhide_pageheader">
+		<svg id="showhide_header_icon" class="hmbicon" viewBox="0 0 27 32"><use xlink:href="#collapse"></use></svg>
+		<a title="Hide Page Header">
+		<span>Hide Page Header</span></a>
+	</li>
+	<li class="toggles" id="showhide_toggles">
+		<svg id="showhide_toggles_icon" class="hmbicon" viewBox="0 0 32 32"><use xlink:href="#eye"></use></svg>
+		<a onclick="hmWebHelp.extFuncs('hmDoToggle',{method: 'hmToggleToggles', obj: {speed: 80}});" title="Show/hide Expanding Text Blocks on Page"> 
+		<span>Show Expanding Text</span></a>
+	</li>
+	<li id="hm_printable_version">
+		<svg class="hmbicon" viewBox="0 0 30 32"><use xlink:href="#print"></use></svg>
+		<a id="hm_printable_link" href="_hm_print_window.htm?scripture-list.html" onclick="hmWebHelp.hamburgerMenu()" target="hm_print_window" title="Print Current Topic">
+		<span>Print Topic</span></a>
+	</li>
+	<li class="desktop server">
+		<svg class="hmbicon" viewBox="0 0 30 32"><use xlink:href="#link"></use></svg>
+		<a href="javascript:hmWebHelp.hamburgerMenu()" data-target="_hmpermalink.html" data-path="./" data-title="Save Topic Permalink" class="popuplink" title="Copy URL of current topic">
+		<span>Save Permalink URL</span></a>
+	</li> 	
+	</ul>
+			 
+	</div>
+	<div id="topicbody">
+	<!-- HMSKIN BODY START -->
+	<div id="hmpageheader">
+	<table id="topicheadertable">
+	  <tr>
+		<td id="topicheadercell">
+		  <div id="topicheaderwrapper">
+		  <p id="ptopic_breadcrumbs" class="topic_breadcrumbs">Navigation: <a href="thefactoftheresurrection.html">The Fact of the Resurrection</a> &gt; <a href="message-information.html">Message Information</a></p> 
+		  <p class="topictitle">Scripture List</p>
+		  </div>
+		</td>
+		<td id="topicnavcell"><span>
+		<a id="atoclink" class="topicnavlink" href="javascript:void(0);" title="Contents of this topic">
+		<svg class="navicon" viewBox="0 0 32 32"><use xlink:href="#list-bullet"></use></svg>
+		<span>Scroll</span></a>
+		
+		 <a id="topicnavlinkprevious" class="topicnavlink nav" href="message-information.html" title="Go to previous topic">
+		 <svg class="navicon" viewBox="0 0 27 32"><use xlink:href="#angle-circled-left"></use></svg>
+		 <span>Prev</span></a>
+		<a id="topicnavlinkhome" class="topicnavlink nav" href="message-information.html" title="Go to top topic">
+		<svg class="navicon" viewBox="0 0 27 32"><use xlink:href="#angle-circled-up"></use></svg>
+		<span>Top</span></a>
+		<a id="topicnavlinknext" class="topicnavlink nav" href="index.html" title="Go to next topic">
+		<svg class="navicon" viewBox="0 0 27 32"><use xlink:href="#angle-circled-right"></use></svg>
+		<span>Next</span></a>
+		
+		 <a id="hamburgerlink" class="topicnavlink" href="javascript:void(0);" title="Additional Functions Menu">
+		 <svg class="navicon" viewBox="0 0 27 32"><use xlink:href="#menu"></use></svg>
+		 <span>More</span></a>
+		 
+		 </span>
+		 </td>
+	  </tr>
+	</table>
+	</div>
+	<div id="autoTocWrapper" class=""></div> 
+	<div id="hmpagebody">
+	
+	<div id="hmpagebody_scroller">
+<!--ZOOMRESTART--> 
+	<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="1peter259" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">1 Peter 2:5–9 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">5 you yourselves like living stones are being built up as a spiritual house, to be a holy priesthood, &nbsp;to offer spiritual sacrifices acceptable to God through Jesus Christ. 6 For it stands in Scripture:</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">“Behold, I am laying in Zion a stone,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; a cornerstone chosen and precious,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">and whoever believes in him will not be put to shame”.</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">7 So the honor is for you who believe, but for those who do not believe,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">“The stone that the builders rejected</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; has become the cornerstone”,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">8 and</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">“A stone of stumbling,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; and a rock of offense”.</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">They stumble because they disobey the word, &nbsp;as they were destined to do.</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">9 But you are a chosen race, &nbsp;a royal priesthood, &nbsp;a holy nation, &nbsp;a people for his own possession, that you may proclaim the excellencies of him who called you out of darkness into his marvelous light.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="exodus1956" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Exodus 19:5–6 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">5 Now therefore, if you will indeed obey my voice and keep my covenant, you shall be my treasured possession among all peoples, for all the earth is mine; &nbsp;6 and you shall be to me a kingdom of priests and a holy nation’. These are the words that you shall speak to the people of Israel”.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="romans151416" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Romans 15:14–16 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">14 I myself am satisfied about you, my brothers, &nbsp;that you yourselves are full of goodness, filled with all knowledge and able to instruct one another. 15 But on some points I have written to you very boldly by way of reminder, &nbsp;because of the grace given me by God 16 to be a minister of Christ Jesus to the Gentiles in the priestly service of the gospel of God, so that the offering of the Gentiles may be acceptable, sanctified by the Holy Spirit.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="james31" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">James 3:1 New Living Translation (NLT)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">3 Dear brothers and sisters, &nbsp;not many of you should become teachers in the church, for we who teach will be judged more strictly.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews41416" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 4:14–16 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">14 Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, let us hold fast our confession. 15 For we do not have a high priest who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, yet without sin. 16 Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews5111" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 5:1–11 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">5 For every high priest chosen from among men is appointed to act on behalf of men in relation to God, &nbsp;to offer gifts and sacrifices for sins. 2 He can deal gently with the ignorant and wayward, since he himself is beset with weakness. 3 Because of this he is obligated to offer sacrifice for his own sins just as he does for those of the people. 4 And no one takes this honor for himself, but only when called by God, &nbsp;just as Aaron was.</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">5 So also Christ did not exalt himself to be made a high priest, but was appointed by him who said to him,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">“You are my Son,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; today I have begotten you”;</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">6 as he says also in another place,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">“You are a priest forever,</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; after the order of Melchizedek”.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">7 In the days of his flesh, &nbsp;Jesus offered up prayers and supplications, &nbsp;with loud cries and tears, to him who was able to save him from death, and he was heard because of his reverence. 8 Although he was a son, &nbsp;he learned obedience through what he suffered. 9 And being made perfect, he became the source of eternal salvation to all who obey him, &nbsp;10 being designated by God a high priest after the order of Melchizedek.</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">11 About this we have much to say, and it is hard to explain, since you have become dull of hearing.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="philippians258" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Philippians 2:5–8 New Living Translation (NLT)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">5 You must have the same attitude that Christ Jesus had.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">6 Though he was God,</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; he did not think of equality with God</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; as something to cling to.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">7 Instead, he gave up his divine privileges;</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; he took the humble position of a slave</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; and was born as a human being.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">When he appeared in human form,</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">8  &nbsp; &nbsp;he humbled himself in obedience to God</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; and died a criminal’s death on a cross.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="deuteronomy2815" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Deuteronomy 28:15 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">15 “But if you will not obey the voice of the Lord your God or be careful to do all his commandments and his statutes that I command you today, then all these curses shall come upon you and overtake you.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="deuteronomy282531" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Deuteronomy 28:25–31 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">25 “The Lord will cause you to be defeated before your enemies. You shall go out one way against them and flee seven ways before them. And you shall be a horror to all the kingdoms of the earth. 26 And your dead body shall be food for all birds of the air and for the beasts of the earth, and there shall be no one to frighten them away. 27 The Lord will strike you with the boils of Egypt, and with tumors and scabs and itch, of which you cannot be healed. 28 The Lord will strike you with madness and blindness and confusion of mind, &nbsp;29 and you shall grope at noonday, as the blind grope in darkness, and you shall not prosper in your ways. And you shall be only oppressed and robbed continually, and there shall be no one to help you. 30 You shall betroth a wife, but another man shall ravish her. You shall build a house, but you shall not dwell in it. You shall plant a vineyard, but you shall not enjoy its fruit. 31 Your ox shall be slaughtered before your eyes, but you shall not eat any of it. Your donkey shall be seized before your face, but shall not be restored to you. Your sheep shall be given to your enemies, but there shall be no one to help you.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="deuteronomy285863" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Deuteronomy 28:58–63 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">58 “If you are not careful to do all the words of this law that are written in this book, that you may fear this glorious and awesome name, &nbsp;the Lord your God, &nbsp;59 then the Lord will bring on you and your offspring extraordinary afflictions, afflictions severe and lasting, and sicknesses grievous and lasting. 60 And he will bring upon you again all the diseases of Egypt, of which you were afraid, and they shall cling to you. 61 Every sickness also and every affliction that is not recorded in the book of this law, the Lord will bring upon you, until you are destroyed.62 Whereas you were as numerous as the stars of heaven, you shall be left few in number, because you did not obey the voice of the Lord your God. 63 And as the Lord took delight in doing you good and multiplying you, so the Lord will take delight in bringing ruin upon you and destroying you. And you shall be plucked off the land that you are entering to take possession of it.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="1peter22124" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">1 Peter 2:21–24 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">21 For to this you have been called, &nbsp;because Christ also suffered for you, &nbsp;leaving you an example, so that you might follow in his steps. 22 He committed no sin, neither was deceit found in his mouth. 23 When he was reviled, he did not revile in return; when he suffered, he did not threaten, &nbsp;but continued entrusting himself to him who judges justly. 24 He himself bore our sins in his body on the tree, that we might die to sin and live to righteousness. By his wounds you have been healed.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews41416" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 4:14–16 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">14 Since then we have a great high priest who has passed through the heavens, Jesus, the Son of God, &nbsp;let us hold fast our confession. 15 For we do not have a high priest who is unable to sympathize with our weaknesses, but one who in every respect has been tempted as we are, &nbsp;yet without sin. 16 Let us then with confidence draw near to the throne of grace, that we may receive mercy and find grace to help in time of need.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews513" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 5:1–3 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">5 For every high priest chosen from among men is appointed to act on behalf of men in relation to God, &nbsp;to offer gifts and sacrifices for sins. 2 He can deal gently with the ignorant and wayward, since he himself is beset with weakness. 3 Because of this he is obligated to offer sacrifice for his own sins just as he does for those of the people.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews5710" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 5:7–10 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">7 In the days of his flesh, &nbsp;Jesus offered up prayers and supplications, &nbsp;with loud cries and tears, to him who was able to save him from death, and he was heard because of his reverence.8 Although he was a son, &nbsp;he learned obedience through what he suffered. 9 And being made perfect, he became the source of eternal salvation to all who obey him, &nbsp;10 being designated by God a high priest after the order of Melchizedek.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="matthew2746" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Matthew 27:46 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">46 And about the ninth hour Jesus cried out with a loud voice, saying, &nbsp;“Eli, Eli, lema sabachthani?” that is, &nbsp;“My God, my God, why have you forsaken me?”</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews92328" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 9:23–28 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">23 Thus it was necessary for the copies of the heavenly things to be purified with these rites, but the heavenly things themselves with better sacrifices than these. 24 For Christ has entered, not into holy places made with hands, which are copies of the true things, but into heaven itself, now to appear in the presence of God on our behalf. 25 Nor was it to offer himself repeatedly, as the high priest enters the holy places every year with blood not his own, &nbsp;26 for then he would have had to suffer repeatedly since the foundation of the world. But as it is, &nbsp;he has appeared once for all at the end of the ages to put away sin by the sacrifice of himself.27 And just as it is appointed for man to die once, and after that comes judgment, &nbsp;28 so Christ, having been offered once to bear the sins of many, will appear a second time, &nbsp;not to deal with sin but to save those who are eagerly waiting for him.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews912" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;"> Hebrews 9:12 (NLT)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">12 With his own blood—not the blood of goats and calves—he entered the Most Holy Place once for all time and secured our redemption forever.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="bereanstudybible" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Berean Study Bibles</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">He did not enter by the blood of goats and calves, but He entered the Most Holy Place once for all by His own blood, thus securing eternal redemption.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="kingjames2000bible" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">King James 2000 Bible</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Neither by the blood of goats and calves, but by his own blood he entered in once into the holy place, having obtained eternal redemption for us.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews86" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 8:6 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">6 But as it is, Christ has obtained a ministry that is as much more excellent than the old as the covenant he mediates is better, since it is enacted on better promises.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews81012" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 8: 10–12 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">10 For this is the covenant that I will make with the house of Israel</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; after those days, declares the Lord:</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">I will put my laws into their minds,</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; and write them on their hearts,</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">and I will be their God,</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; and they shall be my people.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">11 And they shall not teach, each one his neighbor</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; and each one his brother, saying, ‘Know the Lord’,</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">for they shall all know me,</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; from the least of them to the greatest.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">12 For I will be merciful toward their iniquities,</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">  &nbsp; and I will remember their sins no more”.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews10914" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 10:9–14 New Living Translation (NLT)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">9 Then he said, “Look, I have come to do your will”. He cancels the first covenant in order to put the second into effect. 10 For God’s will was for us to be made holy by the sacrifice of the body of Jesus Christ, once for all time.</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">11 Under the old covenant, the priest stands and ministers before the altar day after day, offering the same sacrifices again and again, which can never take away sins. 12 But our High Priest offered himself to God as a single sacrifice for sins, good for all time. Then he sat down in the place of honor at God’s right hand. 13 There he waits until his enemies are humbled , and made a footstool under his feet.14 For by that one offering he forever made perfect those who are being made holy.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews91215" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 9:12–15 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">12 he entered once for all into the holy places, not by means of the blood of goats and calves but by means of his own blood, &nbsp;thus securing an eternal redemption. 13 For if the blood of goats and bulls, and the sprinkling of defiled persons with the ashes of a heifer, sanctify for the purification of the flesh, &nbsp;14 how much more will the blood of Christ, who through the eternal Spirit offered himself without blemish to God, &nbsp;purify our conscience from dead works to serve the living God.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">15 Therefore he is the mediator of a new covenant, so that those who are called may receive the promised eternal inheritance, &nbsp;since a death has occurred that redeems them from the transgressions committed under the first covenant.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="exodus31314" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Exodus 3:13–14 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">13 Then Moses said to God, “If I come to the people of Israel and say to them, ‘The God of your fathers has sent me to you’, and they ask me, ‘What is his name?’ what shall I say to them?” 14 God said to Moses, “I am who I am”. And he said, “Say this to the people of Israel: &nbsp;‘I am has sent me to you’”.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="matthew71520" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Matthew 7:15–20 Christian Standard Bible (CSB)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">15 “Be on your guard against false prophets who come to you in sheep’s clothing but inwardly are ravaging wolves. 16 You’ll recognize them by their fruit. Are grapes gathered from thornbushes or figs from thistles? 17 In the same way, every good tree produces good fruit, but a bad tree produces bad fruit. 18 A good tree can’t produce bad fruit; neither can a bad tree produce good fruit. 19 Every tree that doesn’t produce good fruit is cut down and thrown into the fire. 20 So you’ll recognize them by their fruit.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="john1613" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">John 16:13 Christian Standard Bible (CSB)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">13 When the Spirit of truth comes, he will guide you into all the truth. For he will not speak on his own, but he will speak whatever he hears. He will also declare to you what is to come.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="ephesians11719" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Ephesians 1:17–19 Christian Standard Bible (CSB)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">17 I pray that the God of our Lord Jesus Christ, the glorious Father, &nbsp;would give you the Spirit of wisdom and revelation in the knowledge of him. 18 I pray that the eyes of your heart may be enlightened so that you may know what is the hopeof his calling, &nbsp;what is the wealth of his glorious inheritance in the saints, &nbsp;19 and what is the immeasurable greatness of his power toward us who believe, according to the mighty working of his strength.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews10814" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 10:8–14 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">8 When he said above, “You have neither desired nor taken pleasure in sacrifices and offerings and burnt offerings and sin offerings” (these are offered according to the law), 9 then he added, “Behold, I have come to do your will”. He does away with the first in order to establish the second. 10 And by that will we have been sanctified through the offering of the body of Jesus Christ once for all.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">11 And every priest stands daily at his service, offering repeatedly the same sacrifices, which can never take away sins. 12 But when Christ had offered for all time a single sacrifice for sins, he sat down at the right hand of God, 13 waiting from that time until his enemies should be made a footstool for his feet. 14 For by a single offering he has perfected for all time those who are being sanctified.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="john1548" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">John 15:4–8 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">4 Abide in me, and I in you. As the branch cannot bear fruit by itself, unless it abides in the vine, neither can you, unless you abide in me. 5 I am the vine; you are the branches. Whoever abides in me and I in him, he it is that bears much fruit, for apart from me you can do nothing. 6 If anyone does not abide in me he is thrown away like a branch and withers; and the branches are gathered, thrown into the fire, and burned. 7 If you abide in me, and my words abide in you, ask whatever you wish, and it will be done for you. 8 By this my Father is glorified, that you bear much fruit and so prove to be my disciples.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="mark161920" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Mark 16:19–20 New King James Version (NKJV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">19 So then, &nbsp;after the Lord had spoken to them, He was received up into heaven, and sat down at the right hand of God. 20 And they went out and preached everywhere, the Lord working with them and confirming the word through the accompanying signs. Amen.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews915" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 9:15 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">15 Therefore he is the mediator of a new covenant, so that those who are called may receive the promised eternal inheritance, since a death has occurred that redeems them from the transgressions committed under the first covenant.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="hebrews122324" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Hebrews 12:23–24 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">23 and to the assembly of the firstborn who are enrolled in heaven, and to God, the judge of all, and to the spirits of the righteous made perfect, 24 and to Jesus, the mediator of a new covenant, and to the sprinkled blood that speaks a better word than the blood of Abel.</span></p>
+<p style="line-height: 1.20; margin: 0 0 0 0;"><a id="exodus2438" class="hmanchor"></a><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Exodus 24:3–8 English Standard Version (ESV)</span></p>
+<p style="line-height: 1.20; page-break-after: avoid; margin: 0 0 0 0;"><span style="font-size: 0.91rem; font-family: Arial,Helvetica,sans-serif; color: #000000;">Moses came and told the people all the words of the Lord and all the rules. And all the people answered with one voice and said, “All the words that the Lord has spoken we will do”. 4 And Moses wrote down all the words of the Lord. He rose early in the morning and built an altar at the foot of the mountain, and twelve pillars, according to the twelve tribes of Israel. 5 And he sent young men of the people of Israel, who offered burnt offerings and sacrificed peace offerings of oxen to the Lord. 6 And Moses took half of the blood and put it in basins, and half of the blood he threw against the altar. 7 Then he took the Book of the Covenant and read it in the hearing of the people. And they said, “All that the Lord has spoken we will do, and we will be obedient”. 8 And Moses took the blood and threw it on the people and said, “Behold the blood of the covenant that the Lord has made with you in accordance with all these words”.</span></p>
+
+	<div class="topicfooter">
+<div>
+<p><em>Paul Cooper is Senior Pastor at <a href="3D&quot;https://www.b-wcc.org/&quot;">Bronx Westchester Community Church</a>, Mount Vernon, NY.</em></p>
+</div>
+<p>-</p>
+</div>
+	</div> <!-- hmpagebody_scroller -->
+	</div> <!-- hmpagebody -->
+	</div> <!-- topicbody-->
+	</div><!-- topicbox -->
+	<div id="navwrapper">
+	<div id="dragwrapper" class="toolwrapper">
+	<svg id="draghandleicon_r" class="splittertool" viewBox="0 0 30 32" alt="resize nav pane"><use xlink:href="#draghandle_r"></use></svg>
+	<svg id="draghandleicon_l" class="splittertool" viewBox="0 0 30 32" alt="resize nav pane"><use xlink:href="#draghandle_l"></use></svg>
+	</div>
+	<div id="toolbutton_wrapper" class="toolwrapper desk_tablet">
+	<svg id="toolbar_updown_close" class="splittertool" viewBox="0 0 30 32" alt="showhide pageheader"><use xlink:href="#toolbar_close"></use></svg>
+	<svg id="toolbar_updown_open" class="splittertool" viewBox="0 0 30 32" alt="showhide pageheader"><use xlink:href="#toolbar_open"></use></svg>
+	</div>
+	<div id="navsplitbar"></div>
+	<img id="leftright" src="./images/leftright.png" alt="resize nav pane" width="150" height="45" border="0" />
+	<div id="navcontainer">
+	<!-- NAV TABS START -->
+	<nav id="navpane_tabs">
+	<ul id="topictabs" class="tabs">
+	<li id="contentstab" class="hmtabs current" title="Table of Contents"><a id="contentstablink" title="Contents" href="hmcontent.html"><svg class="tocicon" viewBox="0 0 30 32"><use xlink:href="#list-bullet"></use></svg><span class="desk_tablet">Contents</span><span class="phone">Contents</span></a></li>
+	
+	<li id="indextab" class="hmtabs" title="Keyword Index"><a id="indextablink" title="Index" href="hmkwindex.html"><svg class="tocicon" viewBox="0 0 30 32"><use xlink:href="#key-inv"></use></svg><span>Index</span></a></li>
+	
+	<li id="searchtab" class="hmtabs" title="Search Topics"><a id="searchtablink" title="Search" href="search.php"><svg class="tocicon" viewBox="0 0 30 32"><use xlink:href="#search"></use></svg><span>Search</span></a></li>
+	</ul>
+	</nav>
+	<!-- NAV TABS END -->	
+	<div id="contentsbox" class="navbox on">
+	<iframe name="hmnavigation" id="hmnavigation" class="navframe" src="hmcontent.html" scrolling="no" seamless="seamless" title="Navigation Pane" frameborder="0"></iframe>
+	</div>
+	<div id="indexbox" class="navbox off">
+	<iframe name="hmindex" id="hmindex" class="navframe" src="" scrolling="no" seamless="seamless" title="Keyword Index Pane" frameborder="0"></iframe>	
+	</div> 
+	<div id="searchbox" class="navbox off">
+	<iframe name="hmsearch" id="hmsearch" class="navframe" src="" scrolling="no" seamless="seamless" title="Full Text Search Pane" frameborder="0"></iframe>
+	</div>
+	</div><!-- navcontainer -->
+	</div><!-- navwrapper -->
+	<div id="mob_toolbar_wrapper" data="open">
+	<div id="mob_toolbar" class="mtoolbar">
+		<table id="mob_tb_table" class="mobtoolbar" border="0" width="100%"><tr>
+			<td width="22"></td> 
+			<td id="mob_tb_home" align="center" valign="middle"><div id="mobnavhome" class="mobnav home"></div></td>
+			<td id="mob_tb_toc" align="center" valign="middle"><div id="mobnavtoc" class="mobnav toc"></div></td>
+			<td id="mob_tb_textplus" align="center" valign="middle"><div id="mobnavtextplus" class="mobnav textplus"></div></td>
+			<td id="mob_tb_textminus" align="center" valign="middle"><div id="mobnavtextminus" class="mobnav textminus"></div></td>
+			<td id="mob_tb_previous" align="center" valign="middle"><div id="mobnavprevious" class="mobnav previous"></div></td>
+			<td id="mob_tb_next" align="center" valign="middle"><div id="mobnavnext" class="mobnav next"></div></td>
+			<td>&nbsp;&nbsp;</td>
+			<td id="mob_tb_hamburger" class="mob_hamburger" align="right" valign="top"><div id="phone_mobnav_hamburger_icon" class="mobnav phone"><svg id="phone_hamburger_mobnav" viewBox="0 0 27 32"><use xlink:href="#menu"></use></svg></div></td>
+			</tr></table>
+	</div></div>
+	</div> <!-- pagewrapper -->
+	</div> <!-- helpwrapper -->
+	<div id="dragsurface"></div>
+<script type="text/javascript" src="./js/xmessage.js"></script> 
+<script id="hmPageInitScript" type="text/javascript">
+var fouc=document.getElementById("fouc");
+/*! Help & Manual WebHelp 3 Script functions
+Copyright (c) 2015-2022 by Tim Green. All rights reserved. Contact: https://www.ec-software.com
+*/
+// Reset font size with preset cookie value if available
+(function(){
+	var tempFontSize = sessionVariable.getPV("fontSize"),
+		baseElement = document.getElementsByTagName("html")[0];
+	if (tempFontSize !== null) {
+	baseElement.style.fontSize=tempFontSize + "%";
+	} else {
+	baseElement.style.fontSize = hmDevice.baseFontSize + "%";
+	}
+	})();
+/*** TOGGLE INIT PLACEHOLDER ***/
+
+	var moveCheck = null, hmTocLoaded = false, hmTocWidth = 0, xMessage = new xMsg("LANDING TOPIC");
+
+	// Post-loading scripts function
+	function initScripts() {
+	hmPopupsObject = {};
+	hmFlags.isHmTopic = true;
+	hmFlags.idxLoaded = false;
+	hmFlags.schLoaded = false;
+	hmFlags.searchSession = false;
+	hmFlags.tocClicked = false;
+	hmFlags.layoutTable = false;
+	hmFlags.searchHighlight = "";
+	hmFlags.tocInitWidth = 0;
+	hmFlags.jumpHighlight = false;
+	hmFlags.hmMainPage = "index.html";
+	hmFlags.hmTrackHost = "https://www.b-wcc.org/";
+	hmFlags.hmProject = "The Fact of the Resurrection";
+	hmFlags.hmDefaultPage = "index.html";
+	hmFlags.hmCurrentPage = "scripture-list.html";
+	hmFlags.hmTOC = "hmcontent.html";
+	hmFlags.hmSearchPage = "search.php";
+	hmFlags.hmIndexPage = "hmkwindex.html";
+	hmFlags.thisTopic = "scripture-list.html";
+	hmFlags.lastTopic = "index.html";
+	hmFlags.isEWriter = false;
+	hmFlags.topicExt = ".html";
+	hmFlags.defaultExt = ".html";
+	hmFlags.projName = "the fact of the resurrection";
+	hmFlags.tDescription = document.querySelector("meta[name='description']").getAttribute("content");
+	hmFlags.tKeywords = "1&nbsp;Peter&nbsp;2:21–24,1&nbsp;Peter&nbsp;2:5–9&nbsp;,Berean Study&nbsp;Bible,Deuteronomy&nbsp;28:15,Deuteronomy&nbsp;28:25–31,Deuteronomy&nbsp;28:58–63.,Ephesians&nbsp;1:17–19,Exodus&nbsp;19:5–6&nbsp;,Exodus&nbsp;24:3–8,Hebrews&nbsp;10:8–14,Hebrews&nbsp;12:23–24,Hebrews&nbsp;4:14–16,Hebrews&nbsp;4:14–16&nbsp;,Hebrews&nbsp;5:1–11,Hebrews&nbsp;5:1–3,Hebrews&nbsp;5:7–10,Hebrews&nbsp;8: 10–12&nbsp;,Hebrews&nbsp;8:6,Hebrews&nbsp;9:12 (NLT),Hebrews&nbsp;9:15,James&nbsp;3:1,John&nbsp;15:4–8,John&nbsp;16:13,King James&nbsp;2000&nbsp;Bible,Mark&nbsp;16:19–20,Matthew&nbsp;27:46,Matthew&nbsp;7:15–20,Philippians&nbsp;2:5–8&nbsp;,Romans&nbsp;15:14–16";
+	hmFlags.hdFormat = false;
+	hmFlags.contextID = (function(){
+		var cntxMatch;
+		if (/^https??:\/\//im.test(document.location)) {
+			cntxMatch = /contextid=\d*/.exec(window.location.search.substring(1));
+		} else {
+			cntxMatch = /contextid=\d*/.exec(window.location.hash.substring(1));
+			}
+		return cntxMatch != null ? cntxMatch[0] : false;
+		})();	
+	
+	function loadScripts(x) {
+	$.getScript( scripts[x], function( data, textStatus, jqxhr ) {
+	  if (currentScript < scripts.length-1) {
+	  currentScript++;
+	  loadScripts(currentScript);
+	  } else {
+	  hmpage.defaulttopic = "index.html";
+	hmpage.breadcrumbs = !false;
+	hmpage.parenthome = true;
+	  hmWebHelp.hmMainPageInit();
+	  hmpage.hmDescription = document.querySelector("meta[name='description']").getAttribute("content");
+	  hmpage.hmPicture = "" === "" ? "" : "./images/";
+	  hmpage.topicfooter = $("div.topicfooter")[0].outerHTML;
+	  
+	  
+	  
+	
+	  }
+	}); // $getScript
+	}  // loadScripts()
+	
+	// Force HTML4 mode in History framework for local WebHelp (required for Chrome, use globally for consistency)
+	if (document.location.protocol.substr(0,4) !== "http") {
+		window.History = {options: {html4Mode: true} };
+	}
+	var currentScript = 0;
+	var scripts = ["./js/helpman_settings.js", "./js/jquery.scrollTomin.js", "./js/jquery.history.js", "./js/hm_webhelp.js"]
+	if (hmFlags.contextID) scripts.unshift("./js/hmcontextids.js");
+	if (hmDevice.phone) scripts.push("./js/mobileNav.js");	
+ 
+	var jScript = document.getElementById("jqscript");
+	jScript.src = "./js/jquery.js";
+	
+	var loadCheck = setInterval(function() {
+		if (window.jQuery) {
+			clearInterval(loadCheck);
+			$.ajaxPrefilter( "json script", function(options) {options.crossDomain = true;});
+			if (hmDevice.embedded && hmDevice.desktop) $("li#toggle_fullscreen").show();
+			loadScripts(0);
+			
+			/* Title Bar Text */
+			var titleBarText = "Scripture List";
+			switch ("topic") {
+				case "project":
+				titleBarText = "The Fact of the Resurrection";
+				break;
+				
+				case "project_topic":
+				titleBarText = "The Fact of the Resurrection" + " \> " + "Scripture List"; 
+				break;
+				}
+			titleBarText = $("<textarea/>").html(titleBarText).text();
+			$("title").text(titleBarText);
+			
+			}
+		},100);
+	}
+	if (window.addEventListener)
+	window.addEventListener("load", initScripts, false);
+	else if (window.attachEvent)
+	window.attachEvent("onload", initScripts);
+	else window.onload = initScripts;
+helpman_mailrecipient = 'Support Staff &lt;support@ec-software.com&gt;';
+hmGetUrlParams = function() {/*! 
+* Enter code to save URL parameters to session variables inside the if clause below.
+* This will be executed when your WebHelp is first opened and the session variables
+* you save here will then be available. See the session variables documentation in
+* the V3 Responsive Skins chapter of the help for detailed instructions.
+*/
+if (hmWebHelp.userParams && hmWebHelp.userParams.paramsCount > 0) {
+
+}
+}
+/*! 
+* Enter the JS function/s you want to be able to call after the main page 
+* or individual topics load in this file. The functions are made available 
+* by this file but called by the POSTLOAD_TOPICFUNC and POSTLOAD_PAGEFUNC
+* variables. 
+*  
+* Nothing in this file should be executed on loading! All execution is
+* initiated with a single statement stored in the POSTLOAD_PAGEFUNC and
+* POSTLOAD_TOPICFUNC variables, in the General Settings variables group. 
+*
+* POSTLOAD_PAGEFUNC: Statement to be executed ONCE on loading the main page.
+* POSTLOAD_TOPICFUNC: Statement to be executed on EVERY page load
+* 
+* The statement/s you enter POSTLOAD_PAGEFUNC will be executed after 
+* all page components and assets have loaded, including images.
+* 
+* The statement/s in POSTLOAD_TOPICFUNC are executed after topic content
+* has been dynamically replaced in the page when the user browses to a new
+* topic.
+*/
+
+</script>
+</body>
+</html>

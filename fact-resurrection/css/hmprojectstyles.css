@@ -1,0 +1,273 @@
+/* Text Styles */
+hr { color: #000000 }
+body, table, tr, th /* Normal */
+{
+ font-size: 100%;
+ font-family: Calibri,Vectora,'Droid Sans','Open Sans',Frutiger,sans-serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+table, tr, th
+{
+ font-size: 100%;
+}
+span.f_BlockText /* Block Text */
+{
+ font-size: 1.09rem;
+ font-family: Tahoma,Geneva,Verdana,sans-serif;
+ color: #4f81bd;
+}
+span.f_BlockTexthead /* Block Text head */
+{
+ font-size: 1.09rem;
+ font-family: 'Times New Roman',Times,Georgia,serif;
+ font-weight: bold;
+ color: #4f81bd;
+}
+span.f_Body /* Body */
+{
+ font-size: 1.09rem;
+ font-family: 'Open Sans';
+}
+span.f_CodeExample /* Code Example */
+{
+ font-size: 0.73rem;
+ font-family: 'Courier New',Courier,monospace;
+}
+span.f_Comment /* Comment */
+{
+}
+span.f_Emphasis /* Emphasis */
+{
+ font-size: 0.91rem;
+ font-style: italic;
+ color: #ed1c24;
+}
+span.f_heading1 /* heading 1 */
+{
+ font-size: 2.00rem;
+ font-family: 'Franklin Gothic Book';
+ font-weight: bold;
+ color: #ed1c24;
+}
+span.f_heading2 /* heading 2 */
+{
+ font-size: 1.64rem;
+ font-family: 'Franklin Gothic Book';
+ font-weight: bold;
+ color: #00aeef;
+}
+span.f_heading3 /* heading 3 */
+{
+ font-size: 1.45rem;
+ font-family: 'Franklin Gothic Book';
+ font-weight: bold;
+ color: #385623;
+}
+span.f_heading4 /* heading 4 */
+{
+ font-size: 1.45rem;
+ font-family: 'Times New Roman',Times,Georgia,serif;
+ font-style: italic;
+ font-weight: bold;
+ color: #833c0b;
+}
+span.f_Heading1 /* Heading1 */
+{
+ font-size: 1.45rem;
+ font-weight: bold;
+}
+span.f_Hyperlink /* Hyperlink */
+{
+ font-size: 0.91rem;
+ color: #0000ff;
+ text-decoration: underline;
+}
+span.f_illus_text /* illus-text */
+{
+ font-size: 1.27rem;
+ font-family: 'Times New Roman',Times,Georgia,serif;
+ font-style: italic;
+ color: #994907;
+}
+span.f_ImageCaption /* Image Caption */
+{
+ font-size: 0.73rem;
+ font-weight: bold;
+}
+span.f_Notes /* Notes */
+{
+}
+span.f_SubtleEmphasis /* Subtle Emphasis */
+{
+ font-size: 0.91rem;
+ font-style: italic;
+ color: #404040;
+}
+/* Paragraph styles */
+p, p.p_Normal, div.p_Normal, li.p_Normal /* Normal */
+{
+ text-align: left;
+ text-indent: 0;
+ line-height: 1.37;
+ padding: 0 0 0 0;
+ margin: 0 0 0.2500rem 0;
+}
+.p_BlockText /* Block Text */
+{
+ font-size: 1.09rem;
+ border-color: #4f81bd;
+ border-style: solid;
+ border-width: 0.2500rem;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ padding: 0.8125rem 0.8125rem 0.8125rem 0.8125rem;
+ margin: 0 4.0000rem 0 5.1875rem;
+}
+.p_BlockTexthead /* Block Text head */
+{
+ font-size: 1.09rem;
+ border-color: #4f81bd;
+ border-style: solid;
+ border-width: 0.2500rem;
+ border-top: none;
+ border-right: none;
+ border-bottom: none;
+ padding: 0.8125rem 0.8125rem 0.8125rem 0.8125rem;
+ margin: 0 4.0000rem 0 5.1875rem;
+}
+.p_Body /* Body */
+{
+ font-size: 1.09rem;
+ margin: 0 0 0.5000rem 0;
+}
+.p_CodeExample /* Code Example */
+{
+ font-size: 0.73rem;
+ line-height: 1.0;
+ white-space: nowrap;
+ page-break-inside: avoid;
+ margin: 0 0 0 0;
+}
+.p_Comment /* Comment */
+{
+ font-size: 1.00rem;
+}
+.p_heading1 /* heading 1 */
+{
+ font-size: 2.00rem;
+ margin: 0.5000rem 0 1.0000rem 0;
+}
+.p_heading2 /* heading 2 */
+{
+ font-size: 1.64rem;
+ text-indent: -3.0000rem;
+ border-color: #000000;
+ border-style: solid;
+ border-width: 0;
+ background: #d5e8f3;
+ padding: 0.2500rem 0.2500rem 0.2500rem 0.2500rem;
+ margin: 0.0625rem 0.0625rem 0.0625rem 2.7500rem;
+}
+.p_heading3 /* heading 3 */
+{
+ font-size: 1.45rem;
+ text-indent: -3.0000rem;
+ line-height: 1.20;
+ margin: 0 0 0.5000rem 3.0000rem;
+}
+.p_heading4 /* heading 4 */
+{
+ font-size: 1.45rem;
+ text-indent: -3.0000rem;
+ line-height: 1.20;
+ margin: 0 0 0 3.0000rem;
+}
+.p_Heading1 /* Heading1 */
+{
+ font-size: 100%;
+ font-weight: normal;
+ text-align: left;
+ text-indent: 0;
+ line-height: 1.37;
+ padding: 0 0 0 0;
+ margin: 0 0 0.2500rem 0;
+}
+.p_illus_text /* illus-text */
+{
+ font-size: 1.27rem;
+ margin: 0.1875rem 5.1250rem 0.1875rem 7.5000rem;
+}
+.p_ImageCaption /* Image Caption */
+{
+ font-size: 0.73rem;
+}
+.p_Notes /* Notes */
+{
+ font-size: 1.00rem;
+}
+/* Table styles */
+div.hmrotate90  { display:inline-block; -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; }
+div.hmrotate270 { display:inline-block; -webkit-writing-mode: vertical-rl; -ms-writing-mode: tb-rl; writing-mode: vertical-rl; transform: rotate(180deg); }
+
+a.imagetogglelink {
+  position: relative;
+  display: inline-block;
+}
+svg.image-toggle-magnifier { /* Magnifier icon for image toggles */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 40pt;
+  height: 40pt;
+  max-width: 80%;
+  max-height: 80%;
+  fill: #FFFFFF;
+  stroke: #808080;
+  stroke-width: 0.5pt;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+img.image-toggle:hover + svg.image-toggle-magnifier, svg.image-toggle-magnifier:hover {
+  opacity: 1;
+}
+
+
+
+#hmlightbox /* image lightbox */
+{
+  border: none;
+  padding: 8px;
+  background: #FFF;
+  font-size: 110%;
+  font-weight: bold;
+  color: #777;
+  box-shadow: 5px 5px 5px #888;
+}
+
+a.dropdown-toggle /* dropdown toggle caption */
+{
+  cursor: pointer;
+}
+a.inline-toggle /* inline toggle caption */
+{
+  cursor: pointer;
+}
+img.dropdown-toggle-icon /* toggle icon */
+{
+  cursor: pointer;
+}
+/* CSS for responsive image maps */
+
+.hmImageMap a.hmHotspotRect { display:block; position:absolute; border: 1px solid transparent; background:#000; opacity:0.01 }
+.hmImageMap a.hmHotspotEllipse { display:block; position:absolute; border-radius:50%; border: 1px solid transparent; background:#000; opacity:0.01 }
+.hmImageMap:hover a.hmHotspotRect {opacity:0.3 }
+.hmImageMap:hover a.hmHotspotEllipse { opacity:0.3 }
+a.hmHotspotRect:hover { border:1px solid #000; background:#FFF; opacity:0.3 }
+a.hmHotspotEllipse:hover { border:1px solid #000; background:#FFF; opacity:0.3 }

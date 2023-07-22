@@ -1,0 +1,12 @@
+hmLoadTopic({
+hmKeywords:"",
+hmTitle:"The Primary Purpose of the Old Testament",
+hmDescription:"As a local church we should firstly not be embarrassed by the Old Testament and seek to undermine its authority. Second, we must understand that the Old Testament primarily...",
+hmPrevLink:"god-and-the-bible-are-unified.html",
+hmNextLink:"conclusion.html",
+hmParentLink:"theredemptivethread.html",
+hmBreadCrumbs:"<a href=\"introduction.html\">Introduction<\/a> &gt; <a href=\"thesufficiencyofscripture.html\">The Sufficiency of Scripture<\/a> &gt; <a href=\"theredemptivethread.html\">The Redemptive Thread<\/a>",
+hmTitlePath:"Introduction > The Sufficiency of Scripture > The Redemptive Thread > The Primary Purpose of the Old Testament",
+hmHeader:"<p class=\"p_heading_2_atoc_\"><span class=\"f_heading_2_atoc_\">The Primary Purpose of the Old Testament<\/span><\/p>\n\r",
+hmBody:"<p class=\"p_body\"><span class=\"f_body\">As a local church we should firstly not be embarrassed by the Old Testament and seek to undermine its authority. Second, we must understand that the Old Testament primarily should points to Jesus Christ. Third, we must understand the Jesus of Nazareth perfectly fulfills the Old Testament. As believers, we are not called to live according to bits and pieces of the Law of Moses. As believers we are not to extract parts of the Law of Moses to apply to our lives, our communities, to unbelievers, to modern day Israel or to the world. Fourth, as believers, we should understand the apostolic teachings of the New Testament guides us in what specific Old Testament principles and precepts to adopt and how. Put more simply, we don\'t commit murder because murder is condemned in the Old Testament and in the New Testament. We don\'t bother with animal sacrifice because the New Testament reveals that it is no longer necessary.<\/span><\/p>\n\r<p class=\"p_body\"><span class=\"f_body\">There is a lot at stake with how to correctly apply the Old Testament as a Christian. Wrongly applying the Old Testament will not only lead to spiritual confusion and spiritual bondage but will destroy the local church. The most infamous heresy that nearly destroyed the early church was rooted in an incorrect understanding of applying the Mosaic Law. <\/span><\/p>\n\r<p class=\"p_emphasis\"><span class=\"f_emphasis\">As pastor, I will not tolerate anyone trying to foist outdated Old Testament practices on New Testament believers.<\/span><\/p>\n\r"
+})

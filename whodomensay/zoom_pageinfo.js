@@ -1,0 +1,18 @@
+pageinfo = [[1676329116,0,0,0,null],
+	[1677432238,0,0,0,null],
+	[1677934784,0,0,0,null],
+	[1677432074,0,0,0,null],
+	[1677865660,0,0,0,null],
+	[1678121169,0,0,0,null],
+	[1676327588,0,0,0,null],
+	[1677432172,0,0,0,null],
+	[1676328858,0,0,0,null]];
+pagedata = [ ["./accordingtoscripture.html","According to Scripture","After Peter&#39;s declaration, Jesus teaches his disciples from the he is going suffer, be murdered and rise again after three days. Matthew, Mark and...","./images/zoomimage.jpg"],
+["./conclusion.html","Conclusion","I can testify that you will enjoy your Christian life more when you focus your thoughts and study on the life and work of Jesus of Nazareth as art...","./images/zoomimage.jpg"],
+["./index.html","Who Do Men Say that I Am Message Information","Title: Who Do Men Say That I Am? Author: Rev. Paul Cooper Message Summary: Jesus taught his apostles about his suffering, death and resurrection a...","./images/zoomimage.jpg"],
+["./introduction.html","Introduction","Mark 8:27–33 English Standard Version (ESV) 27 And Jesus went on with his disciples to the villages of Caesarea Philippi. And on the way he asked ...","./images/zoomimage.jpg"],
+["./scriptureindexforwhodomensaythatiam.html","Scripture Index for Who Do Men Say That I Am","Mark 8:27–33 English Standard Version  27 And Jesus went on with his disciples to the villages of Caesarea Philippi. And on the way he asked ...","./images/zoomimage.jpg"],
+["./search_template.html","Who Do Men Say That I Am?","Please enable JavaScript to view this site. Contents &#124; Search Enter one or more keywords to search (&#39;*&#39; and &#39;?&#39; wildcards are supported): You must...",""],
+["./theapostolicmessage.html","The Apostolic Messsage","Jesus&#39;s teaching tells us that we understand who Jesus is from the Bible. We should make it our goal to understand the life and mission of Jesus f...","./images/zoomimage.jpg"],
+["./theredemptivethread.html","The Redemptive Thread","Let&#39;s talk this through. Jesus gives his apostles (including Paul) a lesson from the Old Testament teaching them about his messianic work. He emph...","./images/zoomimage.jpg"],
+["./thesufficiencyofscripture.html","The Sufficiency of Scripture","The fact that Jesus taught his disciples from the Old Testament, is important for us. This means that Jesus believed the Old Testament to be the w...","./images/zoomimage.jpg"]];

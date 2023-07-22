@@ -1,0 +1,12 @@
+hmLoadTopic({
+hmKeywords:"",
+hmTitle:"Introduction",
+hmDescription:"Today is Easter Sunday, and I use the word “Easter” without apology, because it is a pagan word Christians have redeemed from the world and used for our own purposes. I have no...",
+hmPrevLink:"index.html",
+hmNextLink:"thedeath%C2%A0of%C2%A0jesus.html",
+hmParentLink:"index.html",
+hmBreadCrumbs:"",
+hmTitlePath:"Introduction",
+hmHeader:"<p class=\"p_heading1\"><span class=\"f_heading1\">Introduction<\/span><\/p>\n\r",
+hmBody:"<p class=\"p_body\"><span class=\"f_body\">Today is Easter Sunday, and I use the word “Easter” without apology, because it is a pagan word Christians have redeemed from the world and used for our own purposes. I have no idea what Easter &nbsp;meant to those in false religions, but to the Church, we have claimed Easter to be the word that commemorates the day God the Father raised Jesus Christ from the dead.<\/span><\/p>\n\r<p class=\"p_body\"><span class=\"f_body\">I have no problem that Christians have &quot;Easter&quot; for our use. The world is always stealing from the church. I see nonbelievers wearing crosses all the time, even sporting the cross upside down as a tattoo. Nonbelievers use the name of God as a cuss word all the time. Therefore, I happy to to redeem &quot;Easter&quot; for the glory of God. <\/span><\/p>\n\r<p class=\"p_body\"><span class=\"f_body\">Christians flaunt their enjoyment of Easter. Since believers enjoy fellowship, good food and giving gifts, believers have made Easter into a good old-fashioned family get together. Before the days of PlayStations, iPads and Netflix, parents made sure their children had fun and interesting things for their children to do on Easter Sunday. I do not know who came up with the outrageous idea of a rabbit that lays eggs as the mascot for Easter, but something tells me this is one symbol that probably wasn’t conceived by a demon possessed sorcerer in ancient Babylon. However, as a child, any opportunity to get free toys and candies was a welcome treat for me, especially after enduring a long Sunday church service. While I wasn’t a particularly deep thinker as a child, I don’t recall ever being tempted to think the Easter bunny was a suitable rival for Jesus. Therefore, if you are a young child fortunate enough to get an Easter basket today, please enjoy it without any hesitation because it you probably will have to endure a long service. And by the way, <\/span><span class=\"f_emphasis\">do be a good boy or girl and save your Pastor a piece of chocolate.<\/span><\/p>\n\r"
+})

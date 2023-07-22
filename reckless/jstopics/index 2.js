@@ -1,0 +1,12 @@
+hmLoadTopic({
+hmKeywords:"Matthew 4:1-7",
+hmTitle:"The Danger of Being Reckless",
+hmDescription:"Matthew 4:1-7 English Standard Version 4 Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. 2 And after fasting forty days and forty nights,...",
+hmPrevLink:"",
+hmNextLink:"message-information.html",
+hmParentLink:"index.html",
+hmBreadCrumbs:"",
+hmTitlePath:"The Danger of Being Reckless",
+hmHeader:"<p class=\"p_heading_1_atoc_\"><span class=\"f_heading_1_atoc_\">The Danger of Being Reckless<\/span><\/p>\n\r",
+hmBody:"<p class=\"p_scripture_head\" style=\"page-break-inside: avoid; page-break-after: avoid;\"><span class=\"f_scripture_head\">Matthew 4:1-7 English Standard Version<\/span><\/p>\n\r<p class=\"p_scripture\" style=\"page-break-inside: avoid; page-break-after: avoid;\"><span class=\"f_scripture\">4 Then Jesus was led up by the Spirit into the wilderness to be tempted by the devil. 2 And after fasting forty days and forty nights, he was hungry. 3 And the tempter came and said to him, “If you are the Son of God, command these stones to become loaves of bread.” 4 But he answered, “It is written,<\/span><\/p>\n\r<p class=\"p_scripture\" style=\"page-break-inside: avoid; page-break-after: avoid;\"><span class=\"f_scripture\">“‘Man shall not live by bread alone,<\/span><br \/>\n\r<span class=\"f_scripture\">  &nbsp; but by every word that comes from the mouth of God.’”<\/span><\/p>\n\r<p class=\"p_scripture\" style=\"page-break-inside: avoid; page-break-after: avoid;\"><span class=\"f_scripture\">5 Then the devil took him to the holy city and set him on the pinnacle of the temple 6 and said to him, “If you are the Son of God, throw yourself down, for it is written,<\/span><\/p>\n\r<p class=\"p_scripture\" style=\"page-break-inside: avoid; page-break-after: avoid;\"><span class=\"f_scripture\">“‘He will command his angels concerning you,’<\/span><\/p>\n\r<p class=\"p_scripture\" style=\"page-break-inside: avoid; page-break-after: avoid;\"><span class=\"f_scripture\">and<\/span><\/p>\n\r<p class=\"p_scripture\" style=\"page-break-inside: avoid; page-break-after: avoid;\"><span class=\"f_scripture\">“‘On their hands they will bear you up,<\/span><br \/>\n\r<span class=\"f_scripture\">  &nbsp; lest you strike your foot against a stone.’”<\/span><\/p>\n\r<p class=\"p_scripture\" style=\"page-break-inside: avoid; page-break-after: avoid;\"><span class=\"f_scripture\">7 Jesus said to him, “Again it is written, ‘You shall not put the Lord your God to the test.’”<\/span><\/p>\n\r"
+})

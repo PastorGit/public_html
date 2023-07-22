@@ -1,0 +1,16 @@
+pageinfo = [[1677865624,0,0,0,null],
+	[1676147310,0,0,0,null],
+	[1677942556,0,0,0,null],
+	[1676147294,0,0,0,null],
+	[1676147046,0,0,0,null],
+	[1677446796,0,0,0,null],
+	[1678371480,0,0,0,null],
+	[1678371444,0,0,0,null]];
+pagedata = [ ["./conclusionpreparefortransition.html","Conclusion","We prepare for transition in the church by training others to replace us. The first indicator is whether you have been training your replacement. ...","./images/zoomimage.jpg"],
+["./god-desires-transition.html","God Desires Transition","One truth we can learn is that God wanted to pass the mantle of David&#39;s fighting ability to his commanders while David still lived. God wanted a c...","./images/zoomimage.jpg"],
+["./index.html","Message Information for David in Winter","Title: David in Winter Author: Rev. Paul Cooper Message Summary: A look at how God transitions his people from one season to the next. Scripture c...","./images/zoomimage.jpg"],
+["./introduction.html","Introduction","2 Samuel 21:15–21 English Standard Version 15 There was war again between the Philistines and Israel, and David went down...","./images/zoomimage.jpg"],
+["./our-legacy-determines-our-abil.html","Our Legacy Determines Our Ability to Move Higher","The third truth we can glean from this episode is that David could not have moved into his role as the elder statesman and the king who would pave...","./images/zoomimage.jpg"],
+["./scriptureindexfordavidinwinter.html","Scripture Index for David in Winter","2 Samuel 21:15–21 English Standard Version 15 There was war again between the Philistines and Israel, and David went down...","./images/zoomimage.jpg"],
+["./search_template.html","David in Winter","Please enable JavaScript to view this site. Contents &#124; Search Enter one or more keywords to search (&#39;*&#39; and &#39;?&#39; wildcards are supported): You must...",""],
+["./the-new-testament-echo.html","The New Testament Echo","The apostles did not go to war and kill giants, but they carried out exploits of another kind. Paul, Barnabas, Silas, and Timothy preached the Gos...","./images/zoomimage.jpg"]];

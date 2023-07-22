@@ -1,0 +1,12 @@
+﻿<topic modified="2021-06-13T14:51:05.303-04:00" lasteditedby="PaulCooper(org)" version="2">
+  <body>
+    <para styleclass="Normal"><link displaytype="image" src="2_small_logo_no_words.png" type="weblink" href="http://www.b-wcc.org" target="_blank"></link></para>
+    <list id="0" type="ul" listtype="bullet" formatstring="&#183;" format-charset="SYMBOL_CHARSET" levelreset="true" legalstyle="false" startfrom="1" styleclass="bullet" style="font-family:Symbol; font-size:12pt; color:#000000;">
+      <li styleclass="bullet"><text style="font-weight:bold;">Title:</text>&#32;<var translate="false">&lt;%TITLE%&gt;</var></li>
+      <li styleclass="bullet"><text style="font-weight:bold;">Author:</text>&#32;<var translate="false">&lt;%AUTHOR%&gt;</var></li>
+      <li styleclass="bullet"><text style="font-weight:bold;">Message Summary: </text><var translate="false">&lt;%SUMMARY%&gt;</var></li>
+      <li styleclass="bullet"><link displaytype="text" defaultstyle="true" type="weblink" href="https://s3.amazonaws.com/b-wcc.org/scripturecopyright.htm" target="_blank">Scripture copyright information</link></li>
+      <li styleclass="bullet"><link displaytype="text" defaultstyle="true" type="weblink" href="www.messagelink.com/_htmloutput/mastermessagedirectory.html" target="_blank">Message Directory</link></li>
+    </list>
+  </body>
+</topic>
