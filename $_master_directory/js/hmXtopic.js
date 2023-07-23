@@ -6,7 +6,7 @@ hmProjectInfo = {
 	copyright: "© 2023 Rev. Paul Cooper",
 	summary: "&nbsp;",
 	version: "1.0.0",
-	date: "Saturday, July 22, 2023",
+	date: "Sunday, July 23, 2023",
 	language: "en-us",
 	mainfile: "index.html"
 	}

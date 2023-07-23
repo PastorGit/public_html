@@ -6,7 +6,7 @@ hmProjectInfo = {
 	copyright: "© 2023 Rev. Paul Cooper",
 	summary: "The first message in a series explaining why it is God's will to heal the sick.",
 	version: "1.0.0",
-	date: "Saturday, July 22, 2023",
+	date: "Sunday, July 23, 2023",
 	language: "en-us",
 	mainfile: "index.html"
 	}
